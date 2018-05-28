@@ -11,12 +11,15 @@ body {
 }
 
 .img-fluid {
-       border-radius: 50px;
-       }
+    border-radius: 50px;
+    }
 .navbar {
     background-color: #B46648;
 }
-
+       .colbackground {
+       background-color: #B46648;
+       border-radius: 10px; 
+       }
 header {
   background-color: #fdf5e7;
   padding: 154px 0 100px;
