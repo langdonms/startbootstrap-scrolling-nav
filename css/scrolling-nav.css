@@ -4,12 +4,30 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
-       body {
-           font-family: 'Proza Libre', sans-serif;
-           background-color: #fdf5e7;
-           <!-- light beige color FFFBB7--> 
-           <!-- light blush color fdf5e7 -->
+ 
+body {
+    font-family: 'Proza Libre', sans-serif;
+    background-color: #fdf5e7;
+}
+
+.img-fluid {
+       border-radius: 50px;
        }
+.navbar {
+    background-color: #B46648;
+}
+
+header {
+  background-color: #fdf5e7;
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
        h1 {
            font-family: 'Cormorant Garamond', serif;
            font-size: 8vw;
@@ -27,18 +45,12 @@
        
        h4 {
            font-family: 'Proza Libre', sans-serif;
-       }
-
-header {
-  padding: 154px 0 100px;
-}
-
-@media (min-width: 992px) {
-  header {
-    padding: 156px 0 100px;
-  }
-}
 
 section {
   padding: 150px 0;
 }
+       #barn {
+       -webkit-filter: brightness(1.2);
+       filter: brightness(1.2);
+       }
+       
